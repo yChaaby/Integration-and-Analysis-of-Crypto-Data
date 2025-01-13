@@ -8,7 +8,7 @@ This project demonstrates the integration, processing, and analysis of cryptocur
 
 ### Steps
 
-1. **Data Integration**: Real-time cryptocurrency data is fetched from an API.
+1. **Data Integration**: data is fetched from an API.
 2. **AWS Lambda**: Processes the incoming data and stores it in AWS S3.
 3. **Apache Airflow**: Automates ETL workflows, extracting data from S3, transforming it, and loading it into Snowflake.
 4. **Snowflake**: Serves as a scalable data warehouse for structured querying and analysis.
@@ -28,5 +28,4 @@ This project demonstrates the integration, processing, and analysis of cryptocur
    git clone https://github.com/yourusername/Integration-and-Analysis-of-Crypto-Data.git
    cd Integration-and-Analysis-of-Crypto-Data
 
-Diagramme sans nom.drawio (1).png
 
